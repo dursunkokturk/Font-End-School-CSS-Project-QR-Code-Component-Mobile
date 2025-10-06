@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -7,22 +7,18 @@
 .floor {
   background-color: #D5E1EF;
   width: 375px;
-  height: 667px;
-  margin-block: auto;
-  margin-inline: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
 }
 
 .container {
   width: 320px;
   height: 497px;
   background-color: white;
-  margin-inline: 27px;
-  margin-block: 152px;
+  justify-content: center;
+  align-items: center;
   border-radius: 5%;
-  border: 1px solid black;
+  border: 1px solid green;
+  margin-top: 16px;
 }
 
 .container .img-background {
@@ -33,19 +29,17 @@
   border-radius: 2%;
   margin-top: 16px;
   margin-bottom: 24px;
-  border: 1px solid black;
+  border: 1px solid red;
 }
 
 .container .img-background img {
-  /* margin-inline: auto;
-  margin-block: auto; */
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-inline: 64px;
+  margin-block: 64px;
 }
 
 .container .title-and-write {
   width: 288px;
-  height: 129px;
+  /* height: auto; */
   border: 1px solid black;
   margin-inline: auto;
 }
